@@ -341,12 +341,12 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '就这？';
-    if (score <= 99) return '太逊了';
-    if (score <= 149) return '艹';
-    if (score <= 199) return '别那么快';
+    if (score <= 49) return '一点也不爽';
+    if (score <= 99) return '只有一点感觉';
+    if (score <= 149) return '轻点';
+    if (score <= 199) return '要被榨干了~';
 
-     if (score<=200) return '什么几把神';     return 'やりますね';
+     if (score<=200) return '好疼，都坏了~';     return 'やりますね';
 }
 
 function toStr(obj) {
